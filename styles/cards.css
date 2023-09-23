@@ -1,0 +1,221 @@
+main {
+    padding-top: 75px;
+    padding-bottom: 100px;
+    background-color: #F9F9F9;
+}
+
+.breadcrumbs{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+a.breadcrumb{
+    text-decoration: none;
+    color: #BDBDBD;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+a.breadcrumb::after{
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #BDBDBD;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+a.breadcrumb:last-child:after{
+    content: none;
+}
+
+.return-link-section{
+    display: inline-block;
+    margin-bottom: 45px;
+}
+
+a.return-link{
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+}
+
+a.return-link::before{
+    content: '';
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+    background-image: url(../images/return.svg);
+}
+
+.menu-cards{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 40px;
+    flex-wrap: wrap;
+}
+
+.card{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 25px;
+    background-color: #F9F9F9;
+    border-radius: 20px;
+    border: 1px solid var(--Gray-6, #F2F2F2);
+    box-shadow: 8px 8px 15px 0px rgba(0, 0, 0, 0.05), -8px -8px 15px 0px #FFF;
+}
+
+.title-description-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+h2.title-card{
+    width: 275px;
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31px;
+}
+
+p.description-card{
+    color: #828282;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+h3.prise{
+    color: #333;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.weight-list{
+    display: flex;
+    gap: 20px;
+}
+
+button.weight{
+    color: #4F4F4F;
+    font-size: 18px;
+    font-style: normal;
+    padding: 0;
+    font-weight: 500;
+    line-height: normal;
+    border: 0;
+    background-color: #F9F9F9;
+    font-family: 'Gilroy', Arial, sans-serif;
+}
+
+button.active-weight{
+    border-radius: 5px;
+    border: 1px solid #3ECF5E;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.user-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-button{
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    border: 1px solid rgba(5, 175, 52, 0.53);
+    border-radius: 10px;
+    background-color: #3FCF5E;
+}
+
+.buy-button{
+    border: 0;
+    width: 46px;
+    height: 46px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--Gray-4, #BDBDBD);
+    background-color: #F9F9F9;
+}
+
+.discount{
+    border-radius: 10px;
+    background: var(--Gray-1, #333);
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    display: inline-block;
+    position: absolute;
+    right: 12px;
+    top: 12px;
+}
+
+.discount-text{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.turn-page{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 25px;
+}
+
+.turn-left, .turn-right{
+    padding-top: 2.5px;
+    padding-right: 5px;
+    padding-bottom: 2.5px;
+    padding-left: 5px;
+}
+
+.pages{
+    display: flex;
+    gap: 20px;
+}
+
+.pages a{
+    text-decoration: none;
+    color: var(--Gray-3, #828282);
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+a.active-page{
+    color: var(--Green-1, #219653);
+    font-weight: 700;
+}

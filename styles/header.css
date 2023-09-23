@@ -1,0 +1,92 @@
+header{
+    border-color: #FFF;
+    padding: 30px 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.logo-contacts{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.contacts{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.buy-and-add-user{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.logo-contacts a{
+    text-decoration: none;
+    color: #000;
+}
+
+a.logo-link{
+    width: 245px;
+    height: 45px;
+}
+
+a.phone-number{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.phone-number p{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    gap: 40px;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #4F4F4F;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown::after{
+    content: '';
+    background-image: url(../images/dropdown.svg);
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+.nav-search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-search input{
+    width: 345px;
+    height: 55px;
+    border-radius: 10px;
+    border: 1px solid  #BDBDBD;
+    background-color: #F2F2F2;
+    padding: 10px 20px;
+    background-image: url(../images/Search.svg);
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+}
+
+.nav-search input::placeholder{
+    color: #828282;
+    font-size: 18px;
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-weight: 400;
+    line-height: normal;
+}
